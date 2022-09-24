@@ -5,7 +5,6 @@ import (
 	"DSLearning/DataStructure/skiplist"
 	"math/rand"
 	"testing"
-	// "DSLearning/DataStructure/skiplist"
 )
 
 func TestSkiplist(t *testing.T) {

@@ -17,8 +17,8 @@ type ImplSkiplist struct {
 	}
 }
 type MaxLevelError struct{}
-
 func (MaxLevelError) Error() string { return "MaxLevel should equal to or be greater than 1." }
+
 func NewSkiplist(maxLevel int) (Skiplist, error) {
 	if maxLevel < 1 {
 		errorReturnFunc := func() error {

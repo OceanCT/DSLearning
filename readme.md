@@ -2,7 +2,7 @@
 
 A repo to record my process of learing distributed systems. 
 
-For more details,check https://github.io/OceanCT/DSLearning
+For more details,check https://oceanct.github.io/DSLearning/
 
 ## File structure
 

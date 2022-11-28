@@ -13,5 +13,5 @@ type Skiplist[T comparable] interface {
 	// ToString() return a string that show the inner structure pf the skiplist
 	ToString(toString func(T)string)string
 	// ToMap() convert this skiplist to a map
-	ToMap()map[T]int64
+	ToMap() map[T]int64
 }
